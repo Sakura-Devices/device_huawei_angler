@@ -1,0 +1,38 @@
+[
+ {
+   "repository": "kernel_huawei_angler",
+   "target_path": "kernel/huawei/angler",
+   "remote": "Sakura-Devices",
+   "revision":"10"
+ },
+ {
+   "repository": "vendor_huawei",
+   "target_path": "vendor/huawei",
+   "remote": "Sakura-Devices",
+   "revision": "10"
+ },
+ {
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "remote": "github",
+    "revision": "lineage-17.1"
+ },
+  {
+    "repository": "StatiXOS/android_hardware_qcom_display",
+    "target_path": "hardware/qcom/display",
+    "remote": "github",
+    "revision": "10"
+ },
+ {
+    "repository": "StatiXOS/android_hardware_qcom_gps",
+    "target_path": "hardware/qcom/gps",
+    "remote": "github",
+    "revision": "10"
+ },
+ {
+    "repository": "StatiXOS/android_hardware_qcom_media",
+    "target_path": "hardware/qcom/media",
+    "remote": "github",
+    "revision": "10"
+ }
+]
