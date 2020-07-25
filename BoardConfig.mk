@@ -185,3 +185,6 @@ BOARD_SUPPRESS_SECURE_ERASE := true
 TARGET_FLATTEN_APEX := true
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
+
+# Exclude AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
