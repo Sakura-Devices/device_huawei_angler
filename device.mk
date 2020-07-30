@@ -627,3 +627,7 @@ $(call add-product-sanitizer-module-config,qmuxd,never)
 # Zygote Preforking
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Remove Apps
+PRODUCT_PACKAGES += \
+    RemovePackages-1
